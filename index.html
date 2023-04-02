@@ -5,9 +5,207 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://kit.fontawesome.com/d0623050fc.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/d0623050fc.js"
+      crossorigin="anonymous"
+    ></script>
     <title>1 Hour Frontend Challenge</title>
   </head>
   <body>
+    <main class="mx-24 my-8 flex flex-col">
+      <div class="heading flex justify-between">
+        <div class="left">
+          <h1 class="font-bold text-2xl text-gray-800">
+            Social Media Dashboard
+          </h1>
+          <p class="font-bold text-gray-800">Total Followers: 23,004</p>
+        </div>
+        <div class="right"></div>
+      </div>
+      <section class="mt-10 flex justify-between flex-wrap">
+        <div
+          class="card text-center flex flex-col gap-4 bg-slate-200 w-fit py-6 px-12 border-t-[#253b5f] border-4 rounded-md"
+        >
+          <div class="social">
+            <i
+              class="fa-brands fa-square-facebook fa-xl"
+              style="color: #253b5f"
+            ></i>
+            <span>@maitrakhatri</span>
+          </div>
+          <div>
+            <p class="number text-7xl font-bold">1987</p>
+            <p class="font-mono">F O L L O W E R S</p>
+          </div>
+          <p class="text-green-600 font-bold">+12 Today</p>
+        </div>
+        <div
+          class="card text-center flex flex-col gap-4 bg-slate-200 w-fit py-6 px-12 border-t-[#1da1f2] border-4 rounded-md"
+        >
+          <div class="social">
+            <i class="fa-brands fa-twitter fa-xl" style="color: #1da1f2"></i>
+            <span>@maitrakhatri</span>
+          </div>
+          <div>
+            <p class="number text-7xl font-bold">1044</p>
+            <p class="font-mono">F O L L O W E R S</p>
+          </div>
+          <p class="text-green-600 font-bold">+89 Today</p>
+        </div>
+        <div
+          class="card text-center flex flex-col gap-4 bg-slate-200 w-fit py-6 px-12 border-t-[#fa7e1e] border-4 rounded-md"
+        >
+          <div class="social">
+            <i class="fa-brands fa-instagram fa-xl" style="color: #fa7e1e"></i>
+            <span>@maitrakhatri</span>
+          </div>
+          <div>
+            <p class="number text-7xl font-bold">11k</p>
+            <p class="font-mono">F O L L O W E R S</p>
+          </div>
+          <p class="text-green-600 font-bold">+1099 Today</p>
+        </div>
+        <div
+          class="card text-center flex flex-col gap-4 bg-slate-200 w-fit py-6 px-12 border-t-[#ff0000] border-4 rounded-md"
+        >
+          <div class="social">
+            <i class="fa-brands fa-youtube fa-xl" style="color: #ff0000"></i>
+            <span>Maitra K</span>
+          </div>
+          <div>
+            <p class="number text-7xl font-bold">8239</p>
+            <p class="font-mono">S U B S C R I B E R S</p>
+          </div>
+          <p class="text-[#ff0000] font-bold">-144 Today</p>
+        </div>
+      </section>
+      <h2 class="text-xl font-bold mt-10">Overview - Today</h2>
+      <section class="mt-10 flex flex-wrap gap-8 justify-between">
+        <div
+          class="small-card flex gap-16 justify-center items-center bg-slate-200 w-[250px] h-[120px] py-4 px-8 rounded-md"
+        >
+          <div class="flex flex-col gap-4">
+            <p class="text-sm font-bold">Page Views</p>
+            <p class="font-bold text-3xl">87</p>
+          </div>
+          <div class="flex flex-col gap-6 items-center">
+            <div>
+              <i
+                class="fa-brands fa-square-facebook fa-xl"
+                style="color: #253b5f"
+              ></i>
+            </div>
+            <p class="text-green-600 font-bold">+3%</p>
+          </div>
+        </div>
+        <div
+          class="small-card flex gap-16 justify-center items-center bg-slate-200 w-[250px] h-[120px] py-4 px-8 rounded-md"
+        >
+          <div class="flex flex-col gap-4">
+            <p class="text-sm font-bold">Likes</p>
+            <p class="font-bold text-3xl">52</p>
+          </div>
+          <div class="flex flex-col gap-6 items-center">
+            <div>
+              <i
+                class="fa-brands fa-square-facebook fa-xl"
+                style="color: #253b5f"
+              ></i>
+            </div>
+            <p class="text-[#ff0000] font-bold">-2%</p>
+          </div>
+        </div>
+        <div
+          class="small-card flex gap-16 justify-center items-center bg-slate-200 w-[250px] h-[120px] py-4 px-8 rounded-md"
+        >
+          <div class="flex flex-col gap-4">
+            <p class="text-sm font-bold">Likes</p>
+            <p class="font-bold text-3xl">5462</p>
+          </div>
+          <div class="flex flex-col gap-6 items-center">
+            <div>
+              <i
+                class="fa-brands fa-instagram fa-xl"
+                style="color: #fa7e1e"
+              ></i>
+            </div>
+            <p class="text-green-600 font-bold">+2257%</p>
+          </div>
+        </div>
+        <div
+          class="small-card flex gap-16 justify-center items-center bg-slate-200 w-[250px] h-[120px] py-4 px-8 rounded-md"
+        >
+          <div class="flex flex-col gap-4">
+            <p class="text-sm font-bold">Profile Views</p>
+            <p class="font-bold text-3xl">52k</p>
+          </div>
+          <div class="flex flex-col gap-6 items-center">
+            <div>
+              <i
+                class="fa-brands fa-instagram fa-xl"
+                style="color: #fa7e1e"
+              ></i>
+            </div>
+            <p class="text-green-600 font-bold">+1375%</p>
+          </div>
+        </div>
+        <div
+          class="small-card flex gap-16 justify-center items-center bg-slate-200 w-[250px] h-[120px] py-4 px-8 rounded-md"
+        >
+          <div class="flex flex-col gap-4">
+            <p class="text-sm font-bold">Retweets</p>
+            <p class="font-bold text-3xl">117</p>
+          </div>
+          <div class="flex flex-col gap-6 items-center">
+            <div>
+              <i class="fa-brands fa-twitter fa-xl" style="color: #1da1f2"></i>
+            </div>
+            <p class="text-green-600 font-bold">+303%</p>
+          </div>
+        </div>
+        <div
+          class="small-card flex gap-16 justify-center items-center bg-slate-200 w-[250px] h-[120px] py-4 px-8 rounded-md"
+        >
+          <div class="flex flex-col gap-4">
+            <p class="text-sm font-bold">Likes</p>
+            <p class="font-bold text-3xl">507</p>
+          </div>
+          <div class="flex flex-col gap-6 items-center">
+            <div>
+              <i class="fa-brands fa-twitter fa-xl" style="color: #1da1f2"></i>
+            </div>
+            <p class="text-green-600 font-bold">+553%</p>
+          </div>
+        </div>
+        <div
+          class="small-card flex gap-16 justify-center items-center bg-slate-200 w-[250px] h-[120px] py-4 px-8 rounded-md"
+        >
+          <div class="flex flex-col gap-4">
+            <p class="text-sm font-bold">Likes</p>
+            <p class="font-bold text-3xl">107</p>
+          </div>
+          <div class="flex flex-col gap-6 items-center">
+            <div>
+              <i class="fa-brands fa-youtube fa-xl" style="color: #ff0000"></i>
+            </div>
+            <p class="text-[#ff0000] font-bold">-10%</p>
+          </div>
+        </div>
+        <div
+          class="small-card flex gap-16 justify-center items-center bg-slate-200 w-[250px] h-[120px] py-4 px-8 rounded-md"
+        >
+          <div class="flex flex-col gap-4">
+            <p class="text-sm font-bold">Total Views</p>
+            <p class="font-bold text-3xl">1407</p>
+          </div>
+          <div class="flex flex-col gap-6 items-center">
+            <div>
+              <i class="fa-brands fa-youtube fa-xl" style="color: #ff0000"></i>
+            </div>
+            <p class="text-[#ff0000] font-bold">-12%</p>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
